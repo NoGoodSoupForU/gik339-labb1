@@ -47,7 +47,7 @@ om jag hade använt let istället för const hade funktionen fungerat likadant.
 Skillnaden blir att med let kan variabeln få ett nytt värde senare. 
 Med const går det inte att råka skriva över på så vis blir det säkrare. 
 2. function add(num1,num2) {
-return a1 + b2;
+return num1 + num2;
 }
 ungefär samma funktion 
 3. Att funktionen returnerar något betyder att den skickar tillbaka ett värde från där det anropades. 
