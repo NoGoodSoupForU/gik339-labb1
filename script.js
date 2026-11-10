@@ -36,8 +36,8 @@ efter blocket: utskriften blir 1,4,5
 a är 1 eftersom var i blocket skrev över yttre a 
 b och c är 4 och 5 igen eftersom let och const i blocket bara fanns där inne och försvann när blocket tog slut. */ 
 
-const add = (a1, b2) => { 
-    return a1 +b2;
+const add = (num1, num2) => { 
+    return num1 +num2;
 };
 
 console.log(add(2,3))
@@ -46,7 +46,7 @@ console.log(add(2,3))
 om jag hade använt let istället för const hade funktionen fungerat likadant.
 Skillnaden blir att med let kan variabeln få ett nytt värde senare. 
 Med const går det inte att råka skriva över på så vis blir det säkrare. 
-2. function add(a1,b2) {
+2. function add(num1,num2) {
 return a1 + b2;
 }
 ungefär samma funktion 
